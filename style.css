@@ -1,0 +1,17 @@
+#songlist-dropdown {
+    position: relative;
+    height: 100px;
+    width: 50%;
+}
+
+#songlist {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 500px;
+    z-index: 1000;
+    overflow: scroll;
+}
+#songlist p {
+    background-color: aqua;
+}
